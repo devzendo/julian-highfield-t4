@@ -65,11 +65,11 @@ void D_check       (void);
 void interrupt     (void);
 void insert        (unsigned long);
 void purge_timer   (void);
-inline void update_time   (void);
+extern void update_time   (void);
 unsigned long word (unsigned long);
 void writeword     (unsigned long, unsigned long);
 unsigned char byte (unsigned long);
-inline
+extern
 void writebyte     (unsigned long, unsigned char);
 void add_profile   (long);
 void print_profile (void);

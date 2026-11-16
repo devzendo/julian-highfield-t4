@@ -1,6 +1,5 @@
 # Choose a C compiler. (Must be ANSI C capable).
-CC = cc
-# CC = gcc
+CC = gcc
 
 # For a well-optimised version compiled with gcc on a Sun use:
 # CFLAGS = -O2 -DSUN -finline -finline-functions -fexpensive-optimizations
